@@ -5,6 +5,18 @@ This is not intended for survival use, but rather for minigames and such.
 
 The only guns configured by default are the pistol and sniper, you can add as many as you want though!
 
+#how the guns work
+right clicking does a raycast doing the damage specified in the config to any entity hit.
+the item type is put on a short cooldown according to the fire rate specified in the config
+the durability goes down, the durability acts as a percentage of the mag left
+
+if you are out of ammo the cooldown is set really high until the reload time specified in the config is over
+the durability is then reset along with the cooldown and the weapon is ready to be used.
+
+you can give your players and item that uses durability and has the weapons name as the display name to use the gun
+you can also use the built in command /giveweapon <player> <item type> <gun name> to give them the named tool
+this command may be run from console, player, or block
+
 # Gun Stats
 required traits:
 fireRate (seconds, double)

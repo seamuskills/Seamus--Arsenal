@@ -1,3 +1,13 @@
+## required traits:
+#fireRate (seconds, double)
+#damage (1/2 hearts, double)
+#clipSize (int)
+#reloadTime (seconds,double)
+#range (blocks,double)
+#bulletSize (blocks,double)
+##non-required traits:
+#particle (Enum from org.bukkit.Particle)
+
 weapons: #list of all weapons (add, delete, or modify as you desire)
   pistol: #name of weapon
     fireRate: 0.5 #seconds until next fire
@@ -7,9 +17,11 @@ weapons: #list of all weapons (add, delete, or modify as you desire)
     range: 20 #range in blocks (render/simulation distance may apply)
     particle: "ASH" #particle to be used on impact, optional, will not display particle if not present
     bulletSize: 0.2 #size of the ray for the raycast
-  smg:
-    fireRate: 0.1
-    damage: 1
-    clipSize: 30
-    reloadTime: 5
+  sniper:
+    fireRate: 1
+    damage: 30
+    clipSize: 4
+    reloadTime: 3
+    range: 20
+    bulletSize: 0.1
 WeaponStop: yes #used in the code to tell when the weapon configurations stop DO NOT DELETE

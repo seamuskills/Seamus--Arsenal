@@ -64,4 +64,4 @@ I am very unlikely to add the following:
 
 
 -ps
-Thanks to Jade on discord, couldn't have done it without your amazing help!
+Thanks to Jaded on discord, couldn't have done it without your amazing help!

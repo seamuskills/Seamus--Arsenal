@@ -5,7 +5,7 @@ This is not intended for survival use, but rather for minigames and such.
 
 The only guns configured by default are the pistol and sniper, you can add as many as you want though!
 
-#how the guns work
+# how the guns work
 right clicking does a raycast doing the damage specified in the config to any entity hit.
 the item type is put on a short cooldown according to the fire rate specified in the config
 the durability goes down, the durability acts as a percentage of the mag left
@@ -41,7 +41,7 @@ non-required traits:
 particle (Enum from org.bukkit.Particle)
 This is the particle that is displayed on the impact point if hitting a block (must be from org.bukkit.Particle)
 
-#Planned features
+# Planned features
 Weapon types such as:
 * projectile
 * shotgun
@@ -54,7 +54,7 @@ A better way to distinguish from a gun and a regular tool (currently its just th
 
 Sounds (customizable through config like other stats)
 
-#non-planned features
+# non-planned features
 I am very unlikely to add the following:
 * chests containing random weapons (seems like this could be a different plugin)
 * reserve ammo (limit magazines)

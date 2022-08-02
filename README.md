@@ -61,3 +61,7 @@ I am very unlikely to add the following:
 * json support (I've tried this, its a pain)
 * A weapon type that mimmicks X weapon from Y game, this is open source, if you can read my bad code you can add that niche thing yourself.
 * holming weapons (out of my personal skill level)
+
+
+-ps
+Thanks to Jade on discord, couldn't have done it without your amazing help!

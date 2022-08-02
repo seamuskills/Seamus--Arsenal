@@ -1,0 +1,11 @@
+name: Seamus_arsenal
+version: '1.0.0'
+main: me.seamus.seamus_arsenal.seamus_arsenal.SeamusArsenal
+api-version: 1.19
+authors: [ seamuskills ]
+description: A gun system by seamuskills, made to be customizable with config.yml
+commands:
+  giveweapon:
+    description: gives a player a weapon given a valid item and a valid weapon name
+    usage: /giveweapon <player> <tool> <weapon name>
+    permission: seamus_arsenal.giveweapons

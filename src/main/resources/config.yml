@@ -1,0 +1,15 @@
+weapons: #list of all weapons (add, delete, or modify as you desire)
+  pistol: #name of weapon
+    fireRate: 0.5 #seconds until next fire
+    damage: 4 #damage on hit (in half hearts)
+    clipSize: 8 #shots until reload required MUST BE INT
+    reloadTime: 2 #seconds to reload
+    range: 20 #range in blocks (render/simulation distance may apply)
+    particle: "ASH" #particle to be used on impact, optional, will not display particle if not present
+    bulletSize: 0.2 #size of the ray for the raycast
+  smg:
+    fireRate: 0.1
+    damage: 1
+    clipSize: 30
+    reloadTime: 5
+WeaponStop: yes #used in the code to tell when the weapon configurations stop DO NOT DELETE
